@@ -1,0 +1,60 @@
+#root body html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height:100vh;
+}
+.app{
+   
+  height: 100%;
+  padding:235px;
+
+    background-image: url('./img/advice.jpg');
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+   
+
+
+}
+
+.card{
+    background-color: rgb(245, 235, 235);
+  
+    width:65%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    border: 2px solid rgb(117, 120, 73);
+    box-shadow: 2px 2px 0px 2px;
+}
+
+.ff{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+.ff:hover{
+    transform: scale(1.4);
+}
+
+h3{
+    height: 100px;
+    align-items: center;
+    color: rgb(13, 13, 11);
+}
+
+h1{
+    color: rgb(255, 110, 125);
+}
